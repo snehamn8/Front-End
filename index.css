@@ -1,0 +1,81 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    
+}
+
+ #id1
+{
+    position: absolute;
+    
+    text-align: justify;
+} 
+p
+{
+    text-align: justify;
+}
+
+#navContainer{
+    position: absolute;
+    
+    width: 100%;
+    
+    
+    height: 100px;
+    text-align: left;
+}
+
+.img1{
+    position: relative;
+    left: 1000px;
+    top: 75px;
+    margin: 2px;
+
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+}
+
+div p
+{
+    text-align: justify;
+    
+    margin: 5px;
+}
+
+#contentOneContainer{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+    top: 417px;
+    z-index: 0;
+    color: white;
+}
+
+#contentTwoContainer{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    top: 417px;
+    z-index: 0;
+    color: white;
+}
+
+/*----------------------------------*\
+  Responsive
+\*----------------------------------*/
+@media (min-width: 400px){
+    #navContainer{
+    text-align: center;
+
+    }
+}
